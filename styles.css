@@ -1,20 +1,29 @@
-*{margin: 0px;
-padding: 0px;
-box-sizing: border-box;}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .navbar {
     width: 90%;
     height: 90px;
     background-color: yellow;
-position: fixed;
-top: 0px;
-left: 90px;
-right: 20px;
-border: 5px red dashed;
+    position: fixed;
+    top: 0px;
+    left: 90px;
+    right: 20px;
+    border: 5px red dashed;
 }
- 
-.navbar a{text-decoration: none;
-text-align: center;font-size: xx-large;
-margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 209px;
+    line-height: 90px;
+    color: black;
+    font-weight: 600;
+}
 
 
 
@@ -29,6 +38,7 @@ margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
 .parent p {
     position: relative;
     top: 50px;
+    background-color: yellowgreen;
     left: 40px;
     font-size: x-large;
 }
@@ -37,6 +47,7 @@ margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
     position: relative;
     left: 600px;
     top: 30px;
+    color: blueviolet;
 }
 
 .child {
@@ -47,11 +58,13 @@ margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
 
 .child .child1 {
     position: absolute;
+    top: 40px;
 }
 
 .child .child1 p {
     font-size: 30px;
     ;
+    background-color: peachpuff;
 }
 
 
@@ -62,19 +75,20 @@ margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
     font-weight: 600;
     color: blueviolet;
 }
+
 .wow {
     position: relative;
-  }
-  
-  .box1 {
+}
+
+.box1 {
     position: relative;
     z-index: 1;
     border: solid;
     height: 100px;
     margin: 50px;
-  }
-  
-  .box2 {
+}
+
+.box2 {
     position: absolute;
     z-index: 2;
     background: pink;
@@ -82,27 +96,69 @@ margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
     left: 65%;
     top: 25px;
     height: 120px;
-    
-  }
-  
-  .box3 {
+
+}
+
+.box3 {
     position: absolute;
     z-index: 3;
     background: cyan;
     width: 70%;
     left: 40px;
     top: 60px;
-  }
+}
 
 
-  .hidden p{height: 300px;
-width: 100%;
-overflow: hidden;}
+.hidden p {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
 
-.sroll p{width: 100%;
+.sroll p {
+    width: 100%;
     height: 400px;
+    background-color: red;
     overflow: scroll;
 }
-.visible p {width: 100%;
-height: 10pxpx;
-overflow: visible;}
+
+.visible {
+    width: 100%;
+    background-color: red;
+
+    height: 300px;
+}
+
+.fir {
+    height: 300px;
+    width: 100%;
+    overflow: scroll;
+    background-color: red;
+    position: sticky;
+}
+
+.fir #fou {
+    background-color: white;
+    color: blueviolet;
+}
+
+.fir .long {
+    height: 100px;
+    border: 3px red solid;
+    width: 100%;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}
+
+.fir .long a {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 130px;
+    line-height:
+        100px;
+    margin-right: 400px;
+    font-weight: 600;
+}
