@@ -1,0 +1,108 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.navbar {
+    width: 90%;
+    height: 90px;
+    background-color: yellow;
+position: fixed;
+top: 0px;
+left: 90px;
+right: 20px;
+border: 5px red dashed;
+}
+ 
+.navbar a{text-decoration: none;
+text-align: center;font-size: xx-large;
+margin-left: 209px;line-height: 90px;color: black;font-weight: 600; }
+
+
+
+
+.main p {
+    position: static;
+    font-size: 20px;
+    top: 20px;
+    font-size: x-large;
+}
+
+.parent p {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-size: x-large;
+}
+
+.parent h1 {
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+
+.child {
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+
+.child .child1 {
+    position: absolute;
+}
+
+.child .child1 p {
+    font-size: 30px;
+    ;
+}
+
+
+
+
+.child h1 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: blueviolet;
+}
+.wow {
+    position: relative;
+  }
+  
+  .box1 {
+    position: relative;
+    z-index: 1;
+    border: solid;
+    height: 100px;
+    margin: 50px;
+  }
+  
+  .box2 {
+    position: absolute;
+    z-index: 2;
+    background: pink;
+    width: 20%;
+    left: 65%;
+    top: 25px;
+    height: 120px;
+    
+  }
+  
+  .box3 {
+    position: absolute;
+    z-index: 3;
+    background: cyan;
+    width: 70%;
+    left: 40px;
+    top: 60px;
+  }
+
+
+  .hidden p{height: 300px;
+width: 100%;
+overflow: hidden;}
+
+.sroll p{width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+.visible p {width: 100%;
+height: 10pxpx;
+overflow: visible;}
